@@ -22,7 +22,7 @@ const client = new Client({
 //         CONFIG
 // ============================
 const config = {
-  token: process.env.DISCORD_TOKEN || 'MTQ4MTQzNjM5ODExNTYyMjk2NA.GGlXH2.8walp-FKSzp_ee8w5Yx75AJvQ6VGQzZ5fDcXPo',
+  token: process.env.DISCORD_TOKEN || 'MTQ4MTQzNjM5ODExNTYyMjk2NA.G6tbgp.joMPN3DMEVPEwt1crSfdyRhiv6MFNOgZrIgmgc',
   verifiedRoleId: '1481433398529491186',  // Role given after verify
   supportRoleId:  'SUPPORT_ROLE_ID_HERE', // Role that can see tickets (e.g. Staff)
   ticketCategoryId: '1481438559142416546',                   // Optional: category ID for ticket channels
@@ -372,4 +372,5 @@ client.on('interactionCreate', async (interaction) => {
 // ============================
 //           START
 // ============================
+
 client.login(config.token);
