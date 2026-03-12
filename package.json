@@ -1,5 +1,5 @@
 {
-  "name": "discord-verify-bot",
+  "name": "discord-bot",
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
@@ -9,6 +9,6 @@
     "discord.js": "^14.14.1"
   },
   "engines": {
-    "node": ">=16.9.0"
+    "node": "18.x"
   }
 }
